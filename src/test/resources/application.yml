@@ -1,0 +1,6 @@
+kafka:
+  #//Uncomment to use embedded kafka broker
+  #bootstrap-servers: ${spring.embedded.kafka.brokers}
+  bootstrap-servers: localhost:9092
+  topic:
+    avronewtopic: avronewtesttopic
